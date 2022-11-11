@@ -1,0 +1,92 @@
+/*Seletor {
+	Property: value;
+}*/
+
+body {
+	background-color:  #81B29D;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background-color: #81B29D;
+	text-decoration-color: #30604B;
+	color: #57977C;
+	cursor: pointer;
+}
+
+nav {
+	text-align: right;
+	margin-top: auto;
+	padding-bottom: 15px;
+}
+
+li {
+	list-style: none;
+	display:  inline-flex;
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 20px;
+}
+
+p { 
+	text-align: center;
+	font-size:  25px;
+	font-family: "Monaco", Courier New, monospace;
+}
+
+h1 {
+	text-align: center; /*
+	font-family:  "Times New Roman", Times, serif; */
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 55px;
+    font-weight: 600!important;
+    color: #30604B;
+}
+
+form {
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 20px;
+	margin:  auto;
+	position:  relative;
+}
+
+
+.addressstyle {
+	text-align:  center;
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 20px;
+	margin:  auto;
+	position:  relative;
+}
+
+
+.contactstyle {
+	text-align:  center;
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 20px;
+	margin:  auto;
+	position:  relative;
+}
+
+.container {
+	display:  block;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 600px;
+	clear: both;
+}
+
+.container input {
+	width: 100%;
+	clear:  both;
+}
+
+.field1 {
+	width:  200px;
+	height: 25px;
+}
+
+.field2 {
+	width: 350px;
+	height: 100px;
+}

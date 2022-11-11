@@ -1,0 +1,93 @@
+/*Seletor {
+	Property: value;
+}*/
+
+body {
+	background-color:  #81B29D;
+}
+
+header {
+	position: sticky;
+	top: 0;
+	background-color: #81B29D;
+	text-decoration-color: #30604B;
+	color: #57977C;
+	cursor: pointer;
+}
+
+nav {
+	text-align: right;
+	margin-top: auto;
+	padding-bottom: 15px;
+}
+
+li {
+	list-style: none;
+	display:  inline-flex;
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 20px;
+}
+
+p { 
+	text-align: center;
+	font-size:  25px;
+	font-family: "Monaco", Courier New, monospace;
+}
+
+h1 {
+	text-align: center; /*
+	font-family:  "Times New Roman", Times, serif; */
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 55px;
+    font-weight: 600!important;
+    color: #30604B;
+}
+
+h2 {
+	text-align: center; /*
+	font-family:  "Times New Roman", Times, serif; */
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 30px;
+    color: #30604B;
+}
+
+
+.headeritems {
+	display:  inline-flex;
+	margin-top: auto;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.row {
+	display:  block;
+	flex-wrap:  wrap;
+	padding:  0 4px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.container img {
+	margin: 10px;
+}
+
+
+/* Create two equal columns that sit next to each other */
+.column {
+	flex: 50%;
+	padding:  0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle; 
+}
