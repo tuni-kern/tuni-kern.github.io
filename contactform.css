@@ -9,6 +9,11 @@ body {
 header {
 	position: sticky;
 	top: 0;
+	display: flex;
+	flex-direction: row;
+	position: fixed !important;
+    left: 0;
+    width: 100%;
 	background-color: #81B29D;
 	text-decoration-color: #30604B;
 	color: #57977C;
@@ -38,7 +43,17 @@ h1 {
 	text-align: center; /*
 	font-family:  "Times New Roman", Times, serif; */
 	font-family: "Monaco", Courier New, monospace;
-	font-size: 55px;
+	font-size: 45px;
+    font-weight: 600!important;
+    color: #30604B;
+	top: 25%;
+}
+
+h2 {
+	text-align: center; /*
+	font-family:  "Times New Roman", Times, serif; */
+	font-family: "Monaco", Courier New, monospace;
+	font-size: 35px;
     font-weight: 600!important;
     color: #30604B;
 }
@@ -50,6 +65,13 @@ form {
 	position:  relative;
 }
 
+.headeritems {
+	display:  inline-block;
+	margin-top: auto;
+	position: fixed;
+	right: 0;
+	top: 5%;
+}
 
 .addressstyle {
 	text-align:  center;
