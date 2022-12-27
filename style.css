@@ -57,7 +57,7 @@ body {
     .main-nav {
         font-size: 0.5em;
         padding: 0;
-        height: 8vh;
+        height: 12vh;
     }
 
     .toptext {
@@ -75,8 +75,8 @@ body {
 }
 
 .logo > img {
-    width: 80px; 
-    height: 80px; 
+    width: 100px; 
+    height: 100px; 
 }
 
 .push {
@@ -106,7 +106,7 @@ p {
 	font-family: "Monaco", Courier New, monospace;
     color: #30604B;
     margin: 0;
-    padding: 3.2em;
+    padding: 3.6em;
     padding-bottom: 1em;
 }
 
