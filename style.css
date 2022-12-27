@@ -106,7 +106,7 @@ p {
 	font-family: "Monaco", Courier New, monospace;
     color: #30604B;
     margin: 0;
-    padding: 3.6em;
+    padding: 4.2em;
     padding-bottom: 1em;
 }
 
@@ -128,7 +128,7 @@ footer {
 
 /* COVER */
 .container > img {
-    width: 35%;
+    width: 45%;
 }
 
 .container {
@@ -136,7 +136,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height: 50vh;
 }
 
 /* GRID */
