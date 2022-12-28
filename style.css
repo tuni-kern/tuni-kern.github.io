@@ -1,9 +1,20 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
-body {
+
+h2 {
+    vertical-align: center;
+    text-align: center;
+}
+  
+html, body {
+    margin: 0;
+    height: 100%;
+}
+  
+/* body {
     margin: auto 0;
     background-color: #81B29D;
-}
+} */
 
 /* header {
 	position: sticky;
