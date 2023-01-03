@@ -3,53 +3,40 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CONTACT</title>
-	<link rel="stylesheet" type="text/css" href="contactform.css">
+	<title>Contact Form</title>
+	<link rel="stylesheet" type="text/css" href="./contactform.css">
 </head>
 
 <body>
-	<header>
-		<img src="WellnessVending2.png" width="100" height="100" float:left>
-		<nav>
-			<ui class = "headeritems">
-				<li><a href="index.html">HOME</a>
-				</li>
-				<li><a href="contact.html">CONTACT US</a>
-				</li>
-			</ui>
-		</nav>
-	</header>
+	<nav class="zone green sticky top-nav">
+		<div class="logo"><img src="WellnessVending2.png"></div>
+		<input id="menu-toggle" type="checkbox">
+		<label class='menu-button-container' for="menu-toggle">
+		  <div class='menu-button'></div>      
+		</label>
+		<ul class="menu">
+		  <li><a href="index.html">HOME</a></li>
+		  <li class="push"><a href="contact.html">CONTACT US</a></li>
+		</ul>
+	</nav>
 
-	<br>
-	<br>
-	<br>
-
-	<section>
-		<h1>
+	<div class="zone toptext">
+		<p>
 			Contact Us For Vending Services
-		</h1>
-	</section>
-
-	<br>
-
-	<div class = "addressstyle">
-			Address:<br>
-	2504 Granada Circle<br>
-	Spring Valley, CA 91977<br>
+		</p>
 	</div>
 
-	<br>
+	<div class = "zone addressstyle">
+			Address:<br>
+	5360 Jackson Drive #220B<br>
+	La Mesa, CA 91942<br>
+	</div>
 
-	<div class = "contactstyle">
+	<div class = "zone contactstyle">
 		Contact:<br>
 	(619) 776 7976<br>
 	tuni@wellnessvendingsolutions.com<br>
 	</div>
-
-
-<br>
-<br>
-
 
 	<div class="container">
 		<form method="GET">
@@ -64,5 +51,7 @@
 			<input type="submit" value="Submit"><br>
 		</form>
 	</div>
+
+	<footer class="zone green2">Designed by S2 Solutions</footer>
 </body>
 </html>
