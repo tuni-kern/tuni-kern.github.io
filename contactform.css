@@ -20,6 +20,10 @@ html, body {
 .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     cursor:pointer;
     text-align: center;
     /* display:inline-block; */
@@ -174,6 +178,8 @@ html, body {
     .toptext {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
         font-size: 1em;
         /* padding: 200; */
         margin: 0;
