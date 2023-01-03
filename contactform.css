@@ -183,11 +183,19 @@ html, body {
     }
 
     .addressstyle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         font-size: 1em;
         width: 100%;
     }
 
     .contactstyle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
         font-size: 1em;
         width: 100%;
     }
@@ -213,6 +221,7 @@ html, body {
     background-color: #81B29D;
     width: 100%;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -249,7 +258,11 @@ h1 {
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: 0.5px;
     width: 100%;
 }
@@ -262,7 +275,11 @@ form {
 }
 
 .addressstyle {
+    display: flex;
+    flex-direction: row;
 	text-align:  center;
+    align-items: center;
+    justify-content: center;
 	font-family: "Monaco", Courier New, monospace;
 	/* font-size: 30px; */
 	margin:  auto;
@@ -273,7 +290,11 @@ form {
 
 
 .contactstyle {
+    display: flex;
+    flex-direction: row;
 	text-align:  center;
+    align-items: center;
+    justify-content: center;
 	font-family: "Monaco", Courier New, monospace;
 	/* font-size: 30px; */
 	margin:  auto;
