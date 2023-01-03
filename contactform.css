@@ -22,7 +22,6 @@ html, body {
     margin:40px 60px; */
     cursor:pointer;
     text-align: center;
-    width: 100%;
     /* display:inline-block; */
     background-color: #81B29D;
     color:#30604B;
@@ -30,6 +29,7 @@ html, body {
     border-radius:4px;
     border:1px solid #bbb;
     transition: all 0.3s linear;
+    width: 100%;
 }
 
 .zone:hover {
@@ -177,14 +177,17 @@ html, body {
     margin: 0;
     padding: 5.2ex;
     padding-bottom: 0;
+    width: 100%;
     }
 
     .addressstyle {
         font-size: 1em;
+        width: 100%;
     }
 
     .contactstyle {
         font-size: 1em;
+        width: 100%;
     }
 
     footer {
