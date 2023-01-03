@@ -9,7 +9,6 @@ h2 {
 html, body {
     margin: 0;
     height: 100%;
-    width: 100%;
     background-color: #81B29D;
 }
   
@@ -23,6 +22,7 @@ html, body {
     margin:40px 60px; */
     cursor:pointer;
     text-align: center;
+    width: 100%;
     /* display:inline-block; */
     background-color: #81B29D;
     color:#30604B;
