@@ -173,6 +173,7 @@ html, body {
 
     .toptext {
         display: flex;
+        flex-direction: row;
         font-size: 1em;
         /* padding: 200; */
         margin: 0;
