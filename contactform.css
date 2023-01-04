@@ -226,7 +226,7 @@ a {
 
 p { 
 	text-align: center;
-	font-size:  1em;
+	font-size:  1.5em;
 	font-family: "Monaco", Courier New, monospace;
     color: #30604B;
     margin: 0;
@@ -246,7 +246,6 @@ h1 {
 }
 
 footer {
-    bottom: 0;
     text-align: center;
     align-items: center;
     justify-content: center;
