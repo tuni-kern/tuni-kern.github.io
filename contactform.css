@@ -178,8 +178,6 @@ html, body {
     }
 
     .addressstyle {
-        display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
         font-size: 1em;
@@ -187,8 +185,6 @@ html, body {
     }
 
     .contactstyle {
-        display: flex;
-        flex-direction: row;
         align-items: center;
         justify-content: center;
         font-size: 1em;
@@ -229,8 +225,8 @@ a {
 }
 
 p { 
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     align-items: center;
     justify-content: center;
 	text-align: center;
@@ -256,8 +252,6 @@ h1 {
 }
 
 footer {
-    display: flex;
-    flex-direction: row;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -273,8 +267,6 @@ form {
 }
 
 .addressstyle {
-    display: flex;
-    flex-direction: row;
 	text-align:  center;
     align-items: center;
     justify-content: center;
@@ -283,14 +275,12 @@ form {
 	margin:  auto;
     padding: 1.6ex;
     padding-right: 0;
-	position:  relative;
+	/* position:  relative; */
     width: 100%;
 }
 
 
 .contactstyle {
-    display: flex;
-    flex-direction: row;
 	text-align:  center;
     align-items: center;
     justify-content: center;
@@ -298,7 +288,7 @@ form {
 	/* font-size: 30px; */
 	margin:  auto;
     padding: 1.6ex;
-	position:  relative;
+	/* position:  relative; */
     width: 100%;
 }
 
