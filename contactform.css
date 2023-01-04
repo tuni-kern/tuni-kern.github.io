@@ -171,9 +171,9 @@ html, body {
 
     .toptext {
         font-size: 1em;
-        padding-top: 400;
-        /* margin: 0;
-        padding: 5.2ex; */
+        /* padding-top: 300; */
+        /* margin: 0; */
+        padding: 5.2ex;
         padding-bottom: 0;
     }
 
@@ -181,6 +181,7 @@ html, body {
         align-items: center;
         justify-content: center;
         font-size: 1em;
+        padding: 1.6em;
         width: 100%;
     }
 
@@ -188,6 +189,7 @@ html, body {
         align-items: center;
         justify-content: center;
         font-size: 1em;
+        padding: 1.6em;
         width: 100%;
     }
 
@@ -210,6 +212,8 @@ html, body {
 
 .toptext {
     background-color: #81B29D;
+    margin: 0;
+    padding: 5.2ex;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -293,7 +297,7 @@ form {
 	display:  flex;
 	margin-left:  auto;
 	margin-right: auto;
-	width: 400px;
+	width: 500px;
 	clear: both;
 }
 
