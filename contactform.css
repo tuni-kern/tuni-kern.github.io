@@ -295,6 +295,7 @@ form {
 	/* font-size: 30px; */
 	margin:  auto;
     padding: 1.6ex;
+    padding-right: 0;
 	position:  relative;
     width: 100%;
 }
