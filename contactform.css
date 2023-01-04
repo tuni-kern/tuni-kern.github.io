@@ -17,15 +17,10 @@ html, body {
     box-sizing: border-box;
   }
 
-.zone {
+  .zone {
     /* padding:30px 50px;
     margin:40px 60px; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     cursor:pointer;
-    text-align: center;
     /* display:inline-block; */
     background-color: #81B29D;
     color:#30604B;
@@ -33,7 +28,6 @@ html, body {
     border-radius:4px;
     border:1px solid #bbb;
     transition: all 0.3s linear;
-    width: 100%;
 }
 
 .zone:hover {
@@ -176,16 +170,11 @@ html, body {
     }
 
     .toptext {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        font-size: 1em;
+        font-size: 0.8em;
         /* padding: 200; */
         margin: 0;
         padding: 5.2ex;
         padding-bottom: 0;
-        width: 100%;
     }
 
     .addressstyle {
@@ -225,11 +214,9 @@ html, body {
 
 .toptext {
     background-color: #81B29D;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 li {
