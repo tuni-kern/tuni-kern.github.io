@@ -170,9 +170,9 @@ html, body {
     }
 
     .toptext {
-        font-size: 1.2em;
-        /* padding: 200;
-        margin: 0; */
+        font-size: 1.6em;
+        padding: 200;
+        margin: 0;
         padding: 5.2ex;
         padding-bottom: 0;
     }
