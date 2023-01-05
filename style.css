@@ -184,8 +184,7 @@ html, body {
     }
 
     .container > img {
-        height: 40vh;
-        width: 80vw;
+        width: 45%;
     }
 
     footer {
