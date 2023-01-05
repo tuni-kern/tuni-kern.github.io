@@ -219,6 +219,27 @@ html, body {
     justify-content: center; */
 }
 
+.contactinfo {
+    display: block;
+    text-align: center;
+    font-family: "Monaco", Courier New, monospace;
+    font-size: 1.5em;
+    color:#30604B;
+    align-items: center;
+    /* justify-content: center; */
+    list-style-type: none;
+}
+
+.centerform {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
 li {
     padding: 20px;
 }
@@ -295,14 +316,15 @@ form {
 
 .container {
 	display:  flex;
-	margin-left:  10px;
-	margin-right: 10px;
-	width: 500px;
+    flex-direction: row;
+	margin-left:  auto;
+	margin-right: auto;
+	width: 60vw;
 	clear: both;
 }
 
 .container input {
-	width: 100%;
+	width: 60vw;
 	clear:  both;
 }
 
