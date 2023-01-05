@@ -173,12 +173,13 @@ html, body {
         font-size: 1em;
         /* padding-top: 300; */
         /* margin: 0; */
-        padding: 5.2ex;
+        padding: 5.2em;
         padding-bottom: 0;
     }
 
     .addressstyle {
         align-items: center;
+        text-align: center;
         justify-content: center;
         font-size: 1em;
         padding: 1.6em;
@@ -187,6 +188,7 @@ html, body {
 
     .contactstyle {
         align-items: center;
+        text-align: center;
         justify-content: center;
         font-size: 1em;
         padding: 1.6em;
@@ -213,7 +215,8 @@ html, body {
 .toptext {
     background-color: #81B29D;
     margin: 0;
-    padding: 5.2ex;
+    padding: 5.2em;
+    width: 100vw;
     /* display: flex;
     align-items: center;
     justify-content: center; */
@@ -297,7 +300,7 @@ form {
     padding: 1.6ex;
     padding-right: 0;
 	/* position:  relative; */
-    width: 100%;
+    width: 100vw;
 }
 
 
@@ -311,7 +314,7 @@ form {
 	margin:  auto;
     padding: 1.6ex;
 	/* position:  relative; */
-    width: 100%;
+    width: 100vw;
 }
 
 .container {
