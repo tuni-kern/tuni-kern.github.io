@@ -14,7 +14,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 
 const sendMail = (mail) => {
     //1.
-    fetch("/send", {
+    fetch("https://tuni-kern.github.io/send", {
       method: "post", //2.
       body: mail, //3.
   
