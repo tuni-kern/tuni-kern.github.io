@@ -22,3 +22,5 @@ const sendMail = (mail) => {
       return response.json();
     });
   };
+
+  console.log(sendMail);
